@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('images/fondo.jpg'); /* Ruta correcta a la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    background-position: center; /* Centra la imagen */
+    color: #fff; /* Texto blanco para que contraste con la imagen */
+    padding: 80px 0; /* Aumenta el espacio para el header */
+    text-align: center; /* Centra el texto */
+}
+
+nav ul {
+    background: #444;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la foto en "¿Quién soy?" */
+.mi-foto {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Mantiene la proporción de la imagen, recortando si es necesario */
+    margin: 20px 0; /* Añade espacio alrededor de la imagen */
+    border: 3px solid #fff; /* Añade un borde blanco alrededor de la imagen */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
